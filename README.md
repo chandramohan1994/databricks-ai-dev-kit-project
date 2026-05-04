@@ -16,7 +16,11 @@ This project demonstrates how to use Databricks AI Dev Kit with MCP (Module Cont
 - AI Dev Kit
 - MCP Server
 - VS Code
-
+                                                                      CSV → PySpark → Delta (Bronze)
+                                                                                  ↓
+                                                                          Transform (Silver)
+                                                                                  ↓
+                                                                          Curated View (Gold)
 ## ⚙️ What I Implemented
 - Installed AI Dev Kit locally
 - Configured MCP server
