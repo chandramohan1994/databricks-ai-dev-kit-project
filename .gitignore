@@ -1,0 +1,17 @@
+# Ignore environments
+.venv/
+
+# Ignore AI Dev Kit generated files
+.ai-dev-kit/
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS / IDE
+.vscode/
+.DS_Store
+
+# Secrets
+.env
